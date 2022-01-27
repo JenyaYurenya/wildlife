@@ -1,0 +1,80 @@
+Body{
+font-family: 'Roboto', sans-serif;
+background-color:rgb(3, 44, 3);
+}
+
+.main{
+background-image: url(../img/fox.png);
+background-position:center;
+width: 1440px;
+height: 780px;
+left: 100px;
+top: 100px;
+filter: drop-shadow(-150px 0px 150px #02160B);
+border-radius: 0px;
+background-size: 100%;
+background-color:rgb(3, 44, 3);}
+
+
+.header{
+    max-width: 1170px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: left;}
+.nav{
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    &-item{
+        margin-left: 40px;
+    }
+    
+}
+.imput{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+.banner{
+position: absolute;
+left: 10px;
+right: 10px;
+top:10px;
+bottom: 32px;
+background: #FFFFFF;}
+
+
+.sign-in{
+width: 74px;
+height: 60px;
+left: 1300px;
+top: 26px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #F7F7F7;
+position: absolute;
+width: 120px;
+height: 50px;
+left: 1800px;
+top: 24px;
+border: 2px solid #CD6326;
+box-sizing: border-box;
+border-radius: 5px;}
+
+
+
+
+
+ 
+
