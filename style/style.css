@@ -11,6 +11,16 @@ body
 html {
   height: 100vh; }
 
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 780px;
+  left: 0px;
+  top: -1px;
+  -webkit-filter: drop-shadow(-150px 0px 150px #02160B);
+          filter: drop-shadow(-150px 0px 150px #02160B);
+  border-radius: 0px; }
+
 .fox_img {
   position: absolute;
   width: 1440px;
@@ -50,6 +60,13 @@ html {
     border-bottom: 1px solid #faf4f4;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
+
+.lypa {
+  position: absolute;
+  left: 1070px;
+  right: 14.65%;
+  top: 37px;
+  bottom: 14.65%; }
 
 .text-1 {
   position: absolute;
@@ -121,6 +138,14 @@ html {
   top: 550px;
   background: #cd6326;
   border-radius: 5px; }
+
+.main {
+  position: absolute;
+  width: 1440px;
+  height: 1368px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px; }
 
 .text-4 {
   position: absolute;
@@ -236,6 +261,28 @@ html {
   text-align: center;
   color: #333333; }
 
+.arrow {
+  position: absolute;
+  left: 2%;
+  right: 6.7%;
+  top: 110%;
+  bottom: 18.58%; }
+
+.arrow_1 {
+  position: absolute;
+  left: 85%;
+  right: 6.7%;
+  top: 110%;
+  bottom: 18.58%; }
+
+.futer {
+  position: absolute;
+  width: 1440px;
+  height: 360px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px; }
+
 .foliage {
   position: absolute;
   width: 1440px;
@@ -264,7 +311,7 @@ input {
   top: 2000px; }
 
 .mail[type="text"] {
-  background: #cccccc;
+  background: #ffffff;
   width: 540px;
   height: 60px;
   padding: 0 25px; }
@@ -286,8 +333,8 @@ input {
   position: absolute;
   width: 155px;
   height: 60px;
-  left: 100px;
-  top: 1220px;
+  left: 170px;
+  top: 2440px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -299,7 +346,7 @@ input {
 .nav_1 {
   position: absolute;
   list-style-type: none;
-  padding-left: 290px;
+  padding-left: 400px;
   padding-top: 2430px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -310,12 +357,44 @@ input {
   font-style: normal;
   font-weight: normal; }
   .nav_1 .nav-item_1 {
-    margin-left: 120px; }
+    margin-left: 70px; }
   .nav_1 .nav-link_1 {
     color: white;
     text-decoration: none;
     border-bottom: 1px solid #faf4f4;
     -webkit-transition: 0.3s;
     transition: 0.3s; }
+
+.FB {
+  border-radius: 20px;
+  position: absolute;
+  left: 121%;
+  right: 33.33%;
+  top: 98%;
+  bottom: 16.67%; }
+
+.inst {
+  border-radius: 20px;
+  position: absolute;
+  left: 128%;
+  right: 33.33%;
+  top: 98%;
+  bottom: 16.67%; }
+
+.piko {
+  border-radius: 20px;
+  position: absolute;
+  left: 135%;
+  right: 33.33%;
+  top: 98%;
+  bottom: 16.67%; }
+
+.tel {
+  border-radius: 20px;
+  position: absolute;
+  left: 142%;
+  right: 33.33%;
+  top: 98%;
+  bottom: 16.67%; }
 
 /*# sourceMappingURL=style.css.map */
